@@ -1,4 +1,3 @@
-
 let username;
 let nameAttempts=0;
 while(!username){
@@ -8,7 +7,7 @@ while(!username){
   else username=prompt('Enter Your Name');
   nameAttempts++;
 }
-// username="siddhant";
+
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const leave=document.querySelector('.leave_meeting');
