@@ -12,8 +12,8 @@ const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const leave=document.querySelector('.leave_meeting');
 const myPeer = new Peer(undefined, {
-  path: '/peerjs',
-  host: '/',
+  secure:true,
+  host: 'whispering-journey-65071.herokuapp.com/',
   port: '443'
 })
 let fileShare = {}
